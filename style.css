@@ -1,0 +1,536 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-image: url('img/ticket2-2974645_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+hr{
+    width: 70%;
+}
+h1{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin: 10px;
+}
+h2{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin: 8px;
+}
+h3{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin: 10px;
+}
+p{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: 5px;
+}
+label{
+    color: #fff;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+ul{
+    padding-left: 0;
+    margin-left: 0;
+    list-style-position: inside;
+    /*list-style: none;*/
+}
+li{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin: 5px;
+}
+.imgshow{
+    object-fit: contain;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.imgproyectos{
+    object-fit: contain;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+.imgproyectos:hover{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 50px;
+}
+.socialicon{
+    width: 40px;
+    margin: 10px;
+    transition: 0.3s ease-in-out;
+}
+.socialicon:hover{
+    rotate: 180deg;
+}
+.iconfoot{
+    width: 40px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.iconfoot:hover{
+    background-color: #fff;
+}
+/*----------HEADER BANNER----------*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    height: 95vh;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-image: url('img/ticket-2974645_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 10px 30px #000;
+}
+.titleimg{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+}
+/*----------MAIN CONTAINER----------*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+}
+/*----------CONTAINER LABELS/ETIQUETAS----------*/
+.containeretiquetas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 85vw;
+    height: fit-content;
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+.etiqueta{
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(100deg, #3a263e, #3c3481, #a1a114);
+    box-shadow: 5px 5px 10px #000;
+    transition: 0.3s ease-in;
+}
+.etiqueta:hover{
+    margin: 15px;
+}
+/*----------CONTAINER CONTAINER WRAP-----------*/
+.containercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+/*----------CONTAINER QUE ES CE1024STUDIO----------*/
+.containerqueesce1024{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: fit-content;
+    margin: 10px;
+    padding: 0;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    background: linear-gradient(100deg, #3a263e, #294db0);
+    /*background-color: transparent;*/
+    /*backdrop-filter: blur(20px);*/
+    box-shadow: 10px 10px 20px #000;
+}
+/*----------CONTAINER OBJETIVO CE1024STUDIO----------*/
+.containerobjetivoce1024{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: fit-content;
+    margin: 10px;
+    padding: 0;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    background: linear-gradient(100deg, #3a263e, #294db0);
+    /*background-color: transparent;*/
+    /*backdrop-filter: blur(10px);*/
+    box-shadow: 10px 10px 20px #000;
+}
+/*----------CONATINER ESCUELAS INVITACION----------*/
+.containeralumnosdeartes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: fit-content;
+    margin: 10px;
+    padding: 0;
+    border: #fff solid 1px;
+    border-radius: 10px;
+    background: linear-gradient(100deg, #3a263e, #294db0);
+    /*background-color: transparent;*/
+    /*backdrop-filter: blur(10px);*/
+    box-shadow: 10px 10px 20px #000;
+}
+/*----------CONTAINER FRASE----------*/
+.containerfrase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75vw;
+    height: fit-content;
+    margin: 20px;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 10px 20px #000;
+}
+/*----------FORM CONTACT----------*/
+.containerform{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    background-image: url('img/pexels-kyleloftusstudios-3379934.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: -10px -10px 20px #000;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+input{
+    color: #fff;
+    width: 250px;
+    height: 25px;
+    margin: 10px;
+    padding: 0;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+textarea{
+    color: #fff;
+    width: 250px;
+    height: 80px;
+    margin: 10px;
+    padding: 0;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+.btn{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    padding: 0;
+    background: linear-gradient(100deg, #3a263e, #294db0);
+    border: #fff solid 1px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    width: 150px;
+}
+/*----------CONTAINER PROYECTOS CE1024STUDIO----------*/
+.containerproyecto1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    height: fit-content;
+    margin: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 50px;
+    background-color: #3a263e66;
+    backdrop-filter: blur(10px);
+}
+.containerproyecto2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    height: fit-content;
+    margin: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 50px;
+    background-color: #3a263e66;
+    backdrop-filter: blur(10px);
+}
+.containerproyecto3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    height: fit-content;
+    margin: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 50px;
+    background-color: #3a263e66;
+    backdrop-filter: blur(10px);
+}
+.containerproyecto4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    height: fit-content;
+    margin: 10px;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    border-bottom-right-radius: 50px;
+    background-color: #3a263e66;
+    backdrop-filter: blur(10px);
+}
+/*----------FOOTER----------*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    margin: 10px;
+    padding: 0;
+    border: none;
+
+}
+/*----------FOOTER SOCIAL----------*/
+.footsocial{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 180px;
+    margin: 5px;
+    padding: 0;
+    background: linear-gradient(100deg, #294db0, #3a263e);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #000;
+}
+.containericonfoot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+}
+/*----------FOOTER PROYECTOS----------*/
+.footproyectos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 180px;
+    margin: 5px;
+    padding: 0;
+    background: linear-gradient(100deg, #294db0, #3a263e);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #000;
+}
+/*----------FOOTER SERVICIOS----------*/
+.footservicios{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    height: 180px;
+    margin: 5px;
+    padding: 0;
+    background: linear-gradient(100deg, #294db0, #3a263e);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #000;
+}
+
+
+
+
+
+
+
+
+
+/*----------MODALES HTML CSS JAVASCRIPT----------*/
+#dialogproyecto1{
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: none;
+    border-radius: 10px;
+}
+#dialogproyecto1::backdrop{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#dialogproyecto2{
+    width: 80vw;
+    height: fit-content;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: none;
+    border-radius: 10px;
+}
+#dialogproyecto2::backdrop{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#dialogproyecto3{
+    width: 80vw;
+    height: fit-content;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: none;
+    border-radius: 10px;
+}
+
+#dialogproyecto3::backdrop{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#dialogproyecto4{
+    width: 80vw;
+    height: fit-content;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border: none;
+    border-radius: 10px;
+}
+#dialogproyecto4::backdrop{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.imgmodal{
+    width: 320px;
+    height: fit-content;
+    object-fit: contain;
+    margin: 10px;
+    padding: 0;
+    border-radius: 10px;
+}
+.btnmodal{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    padding: 0;
+    border: #fff solid 2px;
+    border-radius: 8px;
+    background: linear-gradient(280deg, #3a263e, #294db0);
+    transition: 0.3s ease-in;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 18px;
+}
+btnmodal:hover{
+    width: 150px;
+}
