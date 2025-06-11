@@ -79,7 +79,19 @@ li{
 .socialicon{
     width: 40px;
     margin: 10px;
-    transition: 0.3s ease-in-out;
+    animation: iconsocialtop;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: initial;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-delay: 0;
+    transition: 0.5s ease-in;
+}
+@keyframes iconsocialtop{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(360deg);}
+    100%{transform: rotate(0deg);}
 }
 .socialicon:hover{
     rotate: 180deg;
@@ -121,6 +133,12 @@ header{
     background-color: transparent;
     backdrop-filter: blur(10px);
     box-shadow: 10px 10px 30px #000;
+    animation-name: titleanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: initial;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 .titleimg{
     display: flex;
@@ -190,7 +208,7 @@ main{
     height: fit-content;
     margin: 10px;
     padding: 0;
-    border: #fff solid 1px;
+    border: #fff solid 2px;
     border-radius: 10px;
     background: linear-gradient(100deg, #3a263e, #294db0);
     /*background-color: transparent;*/
@@ -208,7 +226,7 @@ main{
     height: fit-content;
     margin: 10px;
     padding: 0;
-    border: #fff solid 1px;
+    border: #fff solid 2px;
     border-radius: 10px;
     background: linear-gradient(100deg, #3a263e, #294db0);
     /*background-color: transparent;*/
@@ -226,7 +244,7 @@ main{
     height: fit-content;
     margin: 10px;
     padding: 0;
-    border: #fff solid 1px;
+    border: #fff solid 2px;
     border-radius: 10px;
     background: linear-gradient(100deg, #3a263e, #294db0);
     /*background-color: transparent;*/
