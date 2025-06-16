@@ -81,6 +81,7 @@ li{
 .socialicon{
     width: 40px;
     margin: 10px;
+    height: 40px;
     animation: iconsocialtop;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -100,6 +101,7 @@ li{
 }
 .iconfoot{
     width: 40px;
+    height: 40px;
     margin: 10px;
     border-radius: 15px;
     animation: iconfoot;
