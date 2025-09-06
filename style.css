@@ -59,18 +59,6 @@ label{
     font-family: "Comic Neue", cursive;
     font-weight: 600;
 }
-ul{
-    padding-left: 0;
-    margin-left: 0;
-    list-style-position: inside;
-    /*list-style: none;*/
-}
-li{
-    color: #fff;
-    font-family: "Comic Neue", cursive;
-    font-weight: 600;
-    margin: 5px;
-}
 /*----------HEADER BANNER----------*/
 header{
     display: flex;
@@ -371,6 +359,7 @@ form{
     background-color: transparent;
 }
 input{
+    font-family: "Comic Neue", cursive;
     color: #fff;
     width: 250px;
     height: 25px;
@@ -383,6 +372,7 @@ input{
     backdrop-filter: blur(5px);
 }
 textarea{
+    font-family: "Comic Neue", cursive;
     color: #fff;
     width: 250px;
     height: 80px;
@@ -408,11 +398,14 @@ textarea{
 }
 /**/
 .containercontainercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
     height: fit-content;
     margin: 0px;
     padding: 0px;
-    columns: 350px;
 }
 /*----------CONTAINER PROYECTOS CE1024STUDIO----------*/
 .containerproyecto1{
@@ -426,7 +419,7 @@ textarea{
     padding: 0;
     border: none;
     border-radius: 7px;
-    background-color: #2a263e;
+    background-color: #222;
     break-inside: avoid;
 }
 .containerproyecto2{
@@ -440,21 +433,7 @@ textarea{
     padding: 0;
     border: none;
     border-radius: 7px;
-    background-color: #2a263e;
-    break-inside: avoid;
-}
-.containerproyecto3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 350px;
-    height: fit-content;
-    margin: 10px;
-    padding: 0px;
-    border: none;
-    border-radius: 7px;
-    background-color: #2a263e;
+    background-color: #222;
     break-inside: avoid;
 }
 .containerproyecto4{
@@ -468,7 +447,7 @@ textarea{
     padding: 0;
     border: none;
     border-radius: 7px;
-    background-color: #2a263e;
+    background-color: #222;
     break-inside: avoid;
 }
 .imgproyectos{
@@ -513,7 +492,7 @@ footer{
 #dialogproyecto1, #dialogproyecto2, #dialogproyecto3, #dialogproyecto4{
     width: 90%;
     height: fit-content;
-    background-color: #3b5265;
+    background-color: #333;
     border: none;
     border-radius: 10px;
 }
@@ -544,7 +523,8 @@ footer{
     padding: 0;
     border: none;
     border-radius: 5px;
-    background-color: #2a263e;
+    background-color: #294db0;
     color: #fff;
     font-family: "Comic Neue", cursive;
+    cursor: pointer;
 }
